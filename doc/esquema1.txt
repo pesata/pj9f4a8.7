@@ -1,0 +1,25 @@
+#Màquina física
+
+pj9f4a87
+├── vm
+	├── Vagrantfile			# arxiu principal de Vagrant per crear VB
+	├── .vagrant			# carpeta generada automàticament per Vagrant
+	├── .git			# conté el repositori de Git local (commits)
+	├── .gitignore			# per ignorar carpeta .vagrant i .gitignore
+├── apl1								# carpeta que conté la creació de l'aplicació 1
+	├── Dockerfile			# arxiu per crear una imatge (amb un servidor web)
+	├── docker-compose.yml		# arxiu de configuración de Docker Compose (diversos contenidors) 
+	├── .dockerignore		# arxiu que ignora .dockerignore, .gitignore, .git, .vagrant, Vagrantfile, docker-compose.yml
+	├── codi:			# carpeta per guardar els codis
+		├── html		# codi de l'aplicació en HTML
+		├── php			# codi de l'aplicació en PHP
+├── apl2								# carpeta que conté la creació de l'aplicació 2
+	├── Dockerfile
+	├── docker-compose.yml
+	├── .dockerignore
+	├── codi:
+		├── html		
+		├── php			
+
+├── doc 								# arxius dels procesos de l'activitat
+

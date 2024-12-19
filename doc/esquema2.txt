@@ -1,0 +1,18 @@
+# Màquina virtual:
+
+home								
+	├── vagrant
+		├── pj9f4a87
+			├── apl1
+				├── codi
+			├── apl2
+				├── codi
+
+
+# Màquina física:
+
+...
+	├── apl1
+		├── codi
+	├── apl2
+		├── codi

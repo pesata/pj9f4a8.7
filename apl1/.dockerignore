@@ -1,0 +1,5 @@
+.dockerignore
+.gitignore
+.git
+.vagrant Vagrantfile
+docker-compose.yml

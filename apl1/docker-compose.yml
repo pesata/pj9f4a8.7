@@ -1,0 +1,26 @@
+services:
+  apache:
+    image: httpd:latest
+    expose:
+      - "80"
+    volumes:
+      - ./codi/starship-sorades-13k:/usr/local/apache2/htdocs
+    networks:
+      - 13pj9f4a87
+
+  nginx:
+    image: nginx:latest
+    container_name: cnginx
+    ports:
+      - "80:8000"
+    depends_on:
+      - apache
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    networks:
+      - 13pj9f4a87
+
+networks:
+  13pj9f4a87:
+    name: pj9f4a87
+    driver: bridge
